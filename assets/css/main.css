@@ -2299,7 +2299,7 @@ textarea {
     -webkit-transition: opacity 0.25s ease-in-out;
     -ms-transition: opacity 0.25s ease-in-out;
     transition: opacity 0.25s ease-in-out;
-    background-image: url("images/utyu.jpg");
+    background-image: url("images/overlay.png");
     content: '';
     display: block;
     height: 100%;
@@ -2633,8 +2633,7 @@ input[type="button"],
     -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
     -ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-    /*    background: #544d55;*/
-    background-image: url(images/utyu.jpg);
+    background: #544d55;
     border-radius: 4px;
     border: 0;
     color: #ffffff;
@@ -2655,9 +2654,7 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
 .button:hover {
-    /*    background: #6e6570;*/
-    background-image: url(images/utyu.jpg);
-    color: #544d55;
+    background: #6e6570;
 }
 
 input[type="submit"]:active,
@@ -2671,7 +2668,8 @@ input[type="submit"].alt,
 input[type="reset"].alt,
 input[type="button"].alt,
 .button.alt {
-    background-image: url(images/utyu.jpg);
+    background: none;
+    /*    background-image: url(images/utyu.jpg);*/
     box-shadow: inset 0 0 0 1px rgba(224, 224, 224, 0.75);
     color: #544d55;
 }
@@ -2970,21 +2968,23 @@ input[type="button"].small,
 #footer input[type="reset"],
 #footer input[type="button"],
 #footer .button {
-    /*    background: #ffffff;*/
-    background-image: url(images/utyu.jpg);
+    background: #ffffff;
+    /*
+    background-image: url(images/utyu.jpg);*/
     box-shadow: inset 0 0 0 1px #ffffff;
-    /*    color: #5b5b5b;*/
+
+    color: #5b5b5b;
 }
 
 #footer input[type="submit"]:hover,
 #footer input[type="reset"]:hover,
 #footer input[type="button"]:hover,
 #footer .button:hover {
-    /*    background: rgba(224, 224, 224, 0.15);*/
-    background-image: url(images/utyu.jpg);
-    /*    color: #ffffff;*/
-    color: #5b5b5b;
-}
+       background: rgba(224, 224, 224, 0.15);
+/*    background-image: url(images/utyu.jpg);*/
+    color: #ffffff;
+/*    color: #5b5b5b;
+*/}
 
 #footer input[type="text"]:focus,
 #footer input[type="password"]:focus,
