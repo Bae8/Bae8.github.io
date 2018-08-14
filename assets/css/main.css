@@ -2914,8 +2914,8 @@ input[type="button"].small,
 
 #footer {
     background-attachment: scroll;
-    /*    background-color: #5b5b5b;*/
-    background-color: #1B1B58;
+    background-color: #5b5b5b;
+/*    background-color: #1B1B58;*/
     background-image: url("images/bottom-3200.svg");
     background-position: top center;
     background-repeat: repeat-x;
