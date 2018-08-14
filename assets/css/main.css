@@ -2914,7 +2914,8 @@ input[type="button"].small,
 
 #footer {
     background-attachment: scroll;
-    background-color: #5b5b5b;
+    /*    background-color: #5b5b5b;*/
+    background-color: #1B1B58;
     background-image: url("images/bottom-3200.svg");
     background-position: top center;
     background-repeat: repeat-x;
@@ -2980,11 +2981,12 @@ input[type="button"].small,
 #footer input[type="reset"]:hover,
 #footer input[type="button"]:hover,
 #footer .button:hover {
-       background: rgba(224, 224, 224, 0.15);
-/*    background-image: url(images/utyu.jpg);*/
+    background: rgba(224, 224, 224, 0.15);
+    /*    background-image: url(images/utyu.jpg);*/
     color: #ffffff;
-/*    color: #5b5b5b;
-*/}
+    /*    color: #5b5b5b;
+*/
+}
 
 #footer input[type="text"]:focus,
 #footer input[type="password"]:focus,
@@ -3151,7 +3153,7 @@ input[type="button"].small,
     #header {
         background-attachment: scroll, scroll, scroll;
         background-image: url("images/top-1600.svg"), url("images/utyu.jpg"), url("images/header.jpg");
-        background-size: 1600px 230px, auto, cover;
+        background-size: 1600px 230px, cover, cover;
         padding: 6em 0 12em 0;
     }
 
@@ -3298,7 +3300,7 @@ input[type="button"].small,
     /* Header */
     #header {
         background-image: url("images/top-1280.svg"), url("images/utyu.jpg"), url("../../images/header.jpg");
-        background-size: 1280px 184px, auto, cover;
+        background-size: 1280px 184px, cover, cover;
         padding: 3em 0 7em 0;
     }
 
