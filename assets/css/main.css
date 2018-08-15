@@ -251,7 +251,7 @@ h6 {
     letter-spacing: 0.125em;
     line-height: 1.75em;
     margin-bottom: 1em;
-    text-transform: uppercase;
+    /*    text-transform: uppercase;*/
     text-align: center;
 }
 
@@ -2085,7 +2085,7 @@ header p {
     position: relative;
     top: -1em;
     color: #888888;
-    text-transform: uppercase;
+    /*    text-transform: uppercase;*/
     letter-spacing: 0.075em;
 }
 
@@ -2612,7 +2612,7 @@ table.default th {
     line-height: 1.75em;
     padding: 0.5em 1em 0.5em 1em;
     text-align: left;
-    text-transform: uppercase;
+    /*    text-transform: uppercase;*/
 }
 
 table.default thead {
@@ -2647,7 +2647,7 @@ input[type="button"],
     padding: 0 1.5em;
     text-align: center;
     text-decoration: none;
-    text-transform: uppercase;
+    /*    text-transform: uppercase;*/
 }
 
 input[type="submit"]:hover,
@@ -2915,7 +2915,7 @@ input[type="button"].small,
 #footer {
     background-attachment: scroll;
     background-color: #5b5b5b;
-/*    background-color: #1B1B58;*/
+    /*    background-color: #1B1B58;*/
     background-image: url("images/bottom-3200.svg");
     background-position: top center;
     background-repeat: repeat-x;
@@ -3317,7 +3317,8 @@ input[type="button"].small,
     }
 
     #header h1 {
-        font-size: 1.25em;
+        /*        font-size: 1.25em;*/
+        font-size: 2em;
     }
 
     #header p {
