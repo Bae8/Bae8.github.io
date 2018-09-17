@@ -301,7 +301,7 @@ blockquote {
 }
 
 .container.medium {
-    width: 38.25em;
+    width: 80%;
 }
 
 
@@ -3079,7 +3079,7 @@ input[type="button"].small,
 
     /* Section/Article */
     header.major p {
-        font-size: 1.25em;
+        font-size: 0.8em;
     }
 
     /* Header */
@@ -3125,7 +3125,7 @@ input[type="button"].small,
     }
 
     header.major p {
-        font-size: 1.15em;
+        font-size: 0.8em;
     }
 
     footer.major {
